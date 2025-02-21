@@ -70,7 +70,7 @@ def cadastrar_livro():
     livro_entry = tk.Entry(cadastro_livro)
     livro_entry.grid(row=0, column=1, padx=10, pady=5)
 
-    tk.Label(cadastro_livro, text="Valor da Diária:").grid(row=1, column=0, padx=10, pady=5)
+    tk.Label(cadastro_livro, text="Preço:").grid(row=1, column=0, padx=10, pady=5)
     valor_entry = tk.Entry(cadastro_livro)
     valor_entry.grid(row=1, column=1, padx=10, pady=5)
 
@@ -170,7 +170,7 @@ def comprar_livro():
 cliente = {}
 NomeDoLivro = ["O senhor dos anéis", "Game of Thrones", "Pai rico, pai pobre", "O pequeno príncipe", "Os segredos da mente milionária", "Watchmen", "Romeu e Julieta", "A revolução dos bichos",
  "Guerra e paz", "1984", "O capital", "Como ser um conservador", "Dom Casmurro", "Harry Potter", "Moby Dick", "Os miseráveis", "Crônicas de Nárnia"]
-ValorDoLivro = [125, 102, 95, 41, 25, 150, 24, 31, 15, 38, 27, 52, 15, 82, 33, 97, 125]
+ValorDoLivro = [125, 102, 95, 41, 25, 150, 24, 31, 26, 38, 27, 52, 22, 82, 33, 97, 125]
 QuantidadeDeLivro = [15, 9, 5, 12, 6, 7, 4, 7, 3, 4, 2, 4, 3, 12, 5, 3, 10]
 CodigoDoLivro = [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
 
